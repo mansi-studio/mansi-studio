@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mansi bridal studio</title>
+    <link rel="stylesheet" href="studio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="studio.html"><img src="images/logo.png"></a>
+        <div class="nav-link" id="navlinks">
+            <i class="fa fa-times" onclick="hidemenu()"></i>
+             <ul>
+                <li><a href="studio.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="courses.html">COURSE</a></li>
+                <li><a href="facilities.html">FACILITIES</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+             </ul>
+        </div>
+        <i class="fa fa-bars"onclick="showmenu()"></i>
+    </nav>
+    <h1>Contact Us</h1>
+</section>
+
+<!-------------contact------------------->
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div> <i class="fa fa-home"></i>
+                <span>
+                    <h5>B-228, Bhagvati krupa society</h5>
+                    <p>Punagam, Gujarat,surat, India</p>
+                </span>
+                </div>
+            <div> <i class="fa fa-phone"></i>
+            <span>
+                <h5>+91 9773019525</h5>
+                <p>Monday to Saturday, 10AM to 6AM</p>
+            </span>
+            </div>
+            <div> <i class="fa fa-envelope-o"></i>
+                <span>
+                    <h5>ramanimansi26@gmail.com</h5>
+                    <p>Email Us for your query</p>
+                </span>
+                </div>
+                <div class="contact-col">
+                    <form action="">
+                        <input type="text" placeholder="Enter your name" required>
+                        <input type="email" placeholder="Enter Email Address" required>
+                        <input type="text" placeholder="Enter your subject" required>
+                        <textarea rows="8" placeholder="Message" required></textarea>
+                        <button type="submit" class="hero-btn red-btn">Send Message</button>
+                    </form>
+                </div>
+
+        </div>
+    </div>
+</section>
+<!-----------about------------------------>
+<section class="about">
+    <h4>About Us</h4>
+    <p>we have a experience of more than 20 years.we are a team of 10 pepole with 2 proffesional certified artist. we can do more than 100 brides in a year. </p>
+    <div class="icons">
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-whatsapp"></i>
+        <i class="fa fa-google"></i>
+    </div>
+</section>
+
+<!-----------------------javascript for menu--------------->
+<script>
+    var navlinks=document.getElementById("navlinks");
+    function showmenu(){
+        navlinks.style.right="0";
+    }
+    function hidemenu(){
+        navlinks.style.right="-200"
+    }
+</script>
+</body>
+</html>
